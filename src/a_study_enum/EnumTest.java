@@ -1,5 +1,5 @@
 package a_study_enum;
-
+//转自http://blog.csdn.net/qq_27093465/article/details/52180865
 /**
  * Java枚举用法测试
  * <p>

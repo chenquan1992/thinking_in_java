@@ -1,5 +1,6 @@
 package a_study_enum;
 //如果打算自定义自己的方法，那么必须在enum实例序列的最后添加一个分号。而且 Java 要求必须先定义 enum 实例。
+//转自http://blog.csdn.net/qq_27093465/article/details/52180865
 public enum Color {
     RED("红色", 1), GREEN("绿色", 2), BLANK("白色", 3), YELLO("黄色", 4);
     // 成员变量
