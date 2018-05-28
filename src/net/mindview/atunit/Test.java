@@ -1,6 +1,6 @@
 //: net/mindview/atunit/Test.java
 // The @Test tag.
-package src.net.mindview.atunit;
+package net.mindview.atunit;
 import java.lang.annotation.*;
 
 @Target(ElementType.METHOD)

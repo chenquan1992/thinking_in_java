@@ -1,4 +1,4 @@
-package src.annotations;//: annotations/UseCase.java
+package annotations;//: annotations/UseCase.java
 import java.lang.annotation.*;
 
 @Target(ElementType.METHOD)

@@ -1,4 +1,4 @@
-package src.annotations;//: annotations/PasswordUtils.java
+package annotations;//: annotations/PasswordUtils.java
 import java.util.*;
 
 public class PasswordUtils {
@@ -13,8 +13,7 @@ public class PasswordUtils {
   }
   @UseCase(id = 49, description =
   "New passwords can't equal previously used ones")
-  public boolean checkForNewPassword(
-    List<String> prevPasswords, String password) {
+  public boolean checkForNewPassword( List<String> prevPasswords, String password) {
     return !prevPasswords.contains(password);
   }
 } ///:~

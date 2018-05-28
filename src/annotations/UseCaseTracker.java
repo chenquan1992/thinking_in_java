@@ -1,10 +1,9 @@
-package src.annotations;//: annotations/UseCaseTracker.java
+package annotations;//: annotations/UseCaseTracker.java
 import java.lang.reflect.*;
 import java.util.*;
 
 public class UseCaseTracker {
-  public static void
-  trackUseCases(List<Integer> useCases, Class<?> cl) {
+  public static void trackUseCases(List<Integer> useCases, Class<?> cl) {
     for(Method m : cl.getDeclaredMethods()) {
       UseCase uc = m.getAnnotation(UseCase.class);
       if(uc != null) {
